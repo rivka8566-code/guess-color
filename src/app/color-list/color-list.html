@@ -1,0 +1,6 @@
+<div>
+    @for (color of colors; track $index)
+    {
+        <app-color [color] = "color" [border] = "color == currectedColor ? 'green' : 'red'"></app-color>
+    }
+</div>

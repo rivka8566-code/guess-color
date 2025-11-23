@@ -1,0 +1,8 @@
+/* color-list.css */
+div {
+    display: flex;
+    gap: 20px; /* רווח בין הכפתורים */
+    padding: 10px;
+    border-radius: 8px;
+    /* ייתכן שתרצה רקע עדין לרשימה עצמה */
+  }

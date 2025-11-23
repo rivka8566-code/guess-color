@@ -1,0 +1,25 @@
+/* color.css */
+button {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px; /* פינות מעוגלות */
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s; /* מעבר חלק במעבר עכבר/לחיצה */
+    text-indent: -9999px; /* מסתיר את הטקסט "fvfgh" שבתוך הכפתור */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל עדין */
+  }
+  
+  /* אפקט ריחוף קטן */
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* עיצוב המסגרות החדשות (התוצאה) */
+  button[style*='green'] {
+    border: 5px solid green !important; /* מסגרת עבה וברורה לירוק */
+  }
+  
+  button[style*='red'] {
+    border: 5px solid red !important; /* מסגרת עבה וברורה לאדום */
+  }

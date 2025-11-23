@@ -1,0 +1,28 @@
+/* app.css */
+:host {
+  display: block;
+  text-align: center; /* מיישר את הטקסט של h1 ו-p למרכז */
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9; /* רקע עדין */
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
